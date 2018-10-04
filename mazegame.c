@@ -35,7 +35,7 @@ int main(void) {
 			while (!can_move_forward){
 				printf("turn left\n");
 				
-				printf("Can the mouse move forward? y=1 n=0 Maze finished = 2");
+				printf("Can the mouse move forward? y=1 n=0 Maze finished = 2\n");
 				scanf_s("%d", &temp);
 				if (temp >= 2)
 				{

@@ -17,6 +17,7 @@ int main(void) {
 			if (temp >= 2)
 			{
 				finished = 1;
+				can_move_forward = 1;
 			}
 			else
 			{
@@ -37,9 +38,12 @@ int main(void) {
 				
 				printf("Can the mouse move forward? y=1 n=0 Maze finished = 2\n");
 				scanf_s("%d", &temp);
+				
 				if (temp >= 2)
 				{
 					finished = 1;
+					can_move_forward = 1;
+
 				}
 				else
 				{
@@ -58,6 +62,9 @@ int main(void) {
 			printf("move forward \n");
 	}
 	printf("mouse finished \n");
+	printf("Please press c to continue.");
+	while (getchar() != 'c');
+
 
 		
 		

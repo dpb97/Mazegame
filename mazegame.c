@@ -12,7 +12,7 @@ int main(void) {
 		//while (!can_move_forward) // solange die maus nicht vorwaerts kann nach links drehen
 		
 			int temp = 0;
-			printf("Can the mouse move forward? y=1 n=0 Maze finished = 2");
+			printf("Can the mouse move forward? y=1 n=0 Maze finished = 2\n");
 			scanf_s("%d", &temp);
 			if (temp >= 2)
 			{

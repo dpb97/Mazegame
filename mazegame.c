@@ -1,5 +1,5 @@
+//https://www.onlinegdb.com/online_c_compiler Online Compiler for c
 #include <stdio.h>
-
 
 int main(void) {
 	int finished = 0;
@@ -13,7 +13,7 @@ int main(void) {
 		
 			int temp = 0;
 			printf("Can the mouse move forward? y=1 n=0 Maze finished = 2\n");
-			scanf_s("%d", &temp);
+			scanf("%d", &temp);
 			if (temp >= 2)
 			{
 				finished = 1;
@@ -37,7 +37,7 @@ int main(void) {
 				printf("turn left\n");
 				
 				printf("Can the mouse move forward? y=1 n=0 Maze finished = 2\n");
-				scanf_s("%d", &temp);
+				scanf("%d", &temp);
 				
 				if (temp >= 2)
 				{
